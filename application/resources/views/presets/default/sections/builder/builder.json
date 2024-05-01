@@ -1,0 +1,182 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection":true,
+        "name": "Banner Section",
+        "content": {
+            "images":{
+                "banner_image":{
+                    "size":"600x600"
+                }
+            },
+            "heading": "text",
+            "subheading": "text",
+            "button1": "text",
+            "button2": "text"
+        }
+    },
+
+    "advertising": {
+        "builder": true,
+        "name": "Advertising Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "title": "text",
+            "images":{
+                "ad_image":{
+                    "size":"598x400"
+                }
+            },
+            "description": "textarea-rich",
+            "modal": false
+        }
+    },
+    "benifit": {
+        "builder": true,
+        "name": "About Section",
+        "content": {
+            "images":{
+                "benifit_image1":{
+                    "size":"510x400"
+                },
+                "benifit_image2":{
+                    "size":"192x128"
+                }
+            },
+            "heading": "text",
+            "subheading": "text",
+            "total_clinet": "text",
+            "description": "text"
+        },
+        "element": {
+            "icon": "icon",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+    "feature": {
+        "builder": true,
+        "name": "Feature Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "feature_image":{
+                    "size":"80x80"
+                }
+            },
+            "title": "text",
+            "description": "textarea",
+            "modal": true
+        }
+    },
+    "about_dark": {
+        "builder": false,
+        "name": "About Us Dark",
+        "content": {
+
+        }
+    },
+    "policy_pages": {
+        "builder": false,
+        "no_selection":true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "details": "textarea-rich",
+            "modal": false
+        }
+    },
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "images":{
+                "faq_image":{
+                    "size":"636x470"
+                }
+            },
+            "heading": "text"
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea-rich",
+            "modal": false
+        }
+    },
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "heading": "text"
+        },
+        "element": {
+            "images":{
+                "blog_image":{
+                    "size":"860x450",
+                    "thumb":"400x267"
+                }
+            },
+            "title": "text",
+            "description": "textarea-rich",
+            "modal": false
+        }
+    },
+    "subscribe": {
+        "builder": false,
+        "name": "Subscribe Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text"
+        }
+    },
+    "social_icon": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Social Icons",
+        "element": {
+            "title": "text",
+            "social_icon": "icon",
+            "url": "text",
+            "modal": false
+        }
+    },
+    "contact_us": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Us",
+        "content": {
+            "title": "text",
+            "short_details": "text",
+            "email_address": "text",
+            "contact_details": "text",
+            "contact_number": "text",
+            "latitude": "text",
+            "longitude": "text",
+            "website_footer": "textarea-rich"
+        }
+    },
+    "footer_important_links": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer - Important Links",
+        "element": {
+            "title": "text",
+            "url": "text",
+            "modal": true
+        }
+    },
+    "footer_company_links": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer - Company Links",
+        "element": {
+            "title": "text",
+            "url": "text",
+            "modal": true
+        }
+    }
+}
